@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Weather Forecast</title>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+
+    <link href="http://code.jquery.com/qunit/qunit-1.11.0.css" rel="Stylesheet" />
+    <script type="text/javascript" src="http://code.jquery.com/qunit/qunit-1.11.0.js"></script>
+    <script src="/js/forecasttests.js"></script>
+</head>
+<body class="container">
+    <h1 id="classheader">Weather Forecast</h1>
+    <div id="qunit" style="display:none;"></div>
+    <div class="themeselector">
+        <button type="button" class="btn btn-default switchtheme" data-theme="default-theme">Default</button>
+        <button type="button" class="btn btn-primary switchtheme" data-theme="primary-theme">Primary</button>
+    </div>
+	<p>
+        <span class="boldtext">City:</span>
+        <input type="text" placeholder="enter city name" value="" id="citybox" />
+	</p>
+    <script src="backbone/lib/require.js" data-main="backbone/main"></script>
+</body>
+
+</html>

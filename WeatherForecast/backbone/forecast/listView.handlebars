@@ -1,0 +1,24 @@
+<table class="table" width="100%">
+  {{#if rows}}
+  <tr>
+    <th>Day</th>
+    <th colspan="2">Forecast</th>
+  </tr>
+	{{#each rows}}
+		<tr>
+      <td>
+        {{datetime}}
+      </td>
+      <td class="weathericon">
+        {{#each weather}}
+        <img src="http://openweathermap.org/img/w/{{icon}}.png"></img>
+        {{/each}}
+      </td>
+      <td>
+        <span class="boldtext">High:</span> {{temp.max}} &deg;F
+        <span class="boldtext">Low:</span> {{temp.min}} &deg;F
+      </td>
+  </tr>
+  {{/each}}
+  {{/if}}
+</table>

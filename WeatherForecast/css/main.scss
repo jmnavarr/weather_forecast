@@ -1,0 +1,55 @@
+body {
+}
+
+#citybox {
+    margin-top: 8px;
+}
+#classheader {
+    margin-top: 20px;
+    text-align: center;
+}
+.boldtext {
+    font-weight: bold;
+}
+.weathericon {
+    width: 70px;
+}
+.table td {
+    vertical-align: middle;
+}
+.themeselector {
+    float:right;
+}
+
+.primary-theme {
+    background-color:aliceblue;
+
+	h1 {
+		color: blue;
+	}
+
+	.table {
+		border-style: double;
+	}
+	.table>tbody>tr:nth-child(odd)>td, .table>tbody>tr:nth-child(odd)>th {
+		background-color: #f0f0f0;
+	}
+	.table>tbody>tr:nth-child(even)>td, .table>tbody>tr:nth-child(even)>th {
+		background-color: #ffffff;
+	}
+}
+
+.default-theme {
+    background-color: white;
+
+	h1 {
+		color: black;
+	}
+
+	.table {
+		border-style: none;
+	}
+	.table>tbody>tr:nth-child(odd)>td, .table>tbody>tr:nth-child(odd)>th {
+		background-color: #ffffff;
+	}
+}

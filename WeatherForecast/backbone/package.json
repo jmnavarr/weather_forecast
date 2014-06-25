@@ -1,0 +1,13 @@
+{
+  "name": "WeatherForecast",
+  "dependencies": {
+    "grunt": "*",
+    "grunt-contrib-handlebars": "*",
+    "handlebars": "*",
+    "handlebars-helper-moment": "*"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "handlebars-helper-moment": "^0.2.0"
+  }
+}

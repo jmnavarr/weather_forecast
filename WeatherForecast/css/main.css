@@ -1,0 +1,39 @@
+#citybox {
+  margin-top: 8px; }
+
+#classheader {
+  margin-top: 20px;
+  text-align: center; }
+
+.boldtext {
+  font-weight: bold; }
+
+.weathericon {
+  width: 70px; }
+
+.table td {
+  vertical-align: middle; }
+
+.themeselector {
+  float: right; }
+
+.primary-theme {
+  background-color: aliceblue; }
+  .primary-theme h1 {
+    color: blue; }
+  .primary-theme .table {
+    border-style: double; }
+  .primary-theme .table > tbody > tr:nth-child(odd) > td, .primary-theme .table > tbody > tr:nth-child(odd) > th {
+    background-color: #f0f0f0; }
+  .primary-theme .table > tbody > tr:nth-child(even) > td, .primary-theme .table > tbody > tr:nth-child(even) > th {
+    background-color: #ffffff; }
+
+.default-theme {
+  background-color: white; }
+  .default-theme h1 {
+    color: black; }
+  .default-theme .table {
+    border-style: none; }
+  .default-theme .table > tbody > tr:nth-child(odd) > td, .default-theme .table > tbody > tr:nth-child(odd) > th {
+    background-color: #ffffff; }
+
